@@ -1,5 +1,9 @@
 {
-    "editor.fontSize": 20,
+    "editor.fontSize": 26,
     "editor.letterSpacing": 0,
-    "editor.smoothScrolling": true
+    "editor.smoothScrolling": true,
+    "workbench.colorTheme": "Abyss",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line-thin"
 }
