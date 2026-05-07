@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+</head>
+
+<body>
+    <img src="/cookieclicker/cookiechip1.jpg" alt="cookie" width="400px" id="cookie" onClick="cookieClick()">
+
+    <div id="score">0</div>
+    <button onClick="autoClickUpgrade()">Upgrade Autoclick (100 clicks)</button>
+    <button onClick="clickMultiUpgrade()">Upgrade Click Multiplier (100 clicks)</button>
+
+</body>
+
+<script>
+    //Config
+
+    //AutoClicker
+    var autoclickDuration = 5000; //ms
+    var autoclickCostPerLevel = 100;
+    var autoclickCost = 100;
+
+    //ClickMultiplier
+    var clickMulti = 1;
+    var clickMultiCostPerLevel = 100;
+    var clickMultiCost = 100;
+
+
+    var score = 0;
+    var scoreBox = document.getElementById("score");
+
+    function cookieClick() {
+        score = score + (1 * clickMulti);
+        scoreBox.innerHTML = score;
+    }
+
+    function autoClickUpgrade() {
+        if (score >= autoclickCost) {
+            score = score - autoclickCost;
+            autoclickDuration = autoclickDuration * 0.8;
+            scoreBox.innerHTML = score;
+
+        }
+    }
+
+    function clickMultiUpgrade() {
+        if (score >= clickMultiCost) {
+            score = score - clickMultiCost;
+            clickMulti = clickMulti + 1;
+            scoreBox.innerHTML = score;
+
+        }
+    }
+
+    function autoClickLoop() {
+        score++;
+        scoreBox.innerHTML = score;
+
+        setTimeout(autoClickLoop, autoclickDuration);
+    }
+
+    autoClickLoop();
+
+</script>
+
+</html>
