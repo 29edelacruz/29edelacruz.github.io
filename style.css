@@ -1,0 +1,22 @@
+body {
+    background-color: #79ADDC;
+    margin: 0;
+    padding: 0;
+}
+
+div.intro {
+    font-family: Cause;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+a#gamelink {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
