@@ -8,26 +8,26 @@ body {
     height: 98vh;
 }
 
-div.intro {
+.intro {
     font-family: Cause;
     text-align: center;
     margin-top: 50px;
 
 }
 
-div.cookieclick {
+.cookieclick {
     font-family: Cause;
     text-align: center;
     margin-top: 0px;
 }
 
-div.aboutme {
+.aboutme {
     font-family: Montserrat;
     text-align: center;
     margin-top: 100px;
 }
 
-a#gamelink {
+#gamelink {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
