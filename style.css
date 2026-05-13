@@ -2,6 +2,10 @@ body {
     background-color: #79ADDC;
     margin: 0;
     padding: 0;
+    cursor: cell;
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
 }
 
 div.intro {
@@ -9,6 +13,12 @@ div.intro {
     text-align: center;
     margin-top: 50px;
 
+}
+
+div.cookieclick {
+    font-family: Cause;
+    text-align: center;
+    margin-top: 0px;
 }
 
 a#gamelink {
@@ -27,12 +37,29 @@ a#gamelink {
     background-color: #551a8b;
     overflow: hidden;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .nav a {
     color: white;
+    font-family: Cause;
     text-align: center;
     padding: 6px 12px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+}
+
+.nav a:active {
+    background-color: #4CAF50;
+    color: white;
+
 }
