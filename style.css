@@ -8,7 +8,7 @@ div.intro {
     font-family: Cause;
     text-align: center;
     margin-top: 50px;
-    
+
 }
 
 a#gamelink {
@@ -19,4 +19,20 @@ a#gamelink {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #551a8b;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    text-align: center;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 17px;
 }
