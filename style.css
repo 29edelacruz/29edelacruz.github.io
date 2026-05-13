@@ -21,6 +21,12 @@ div.cookieclick {
     margin-top: 0px;
 }
 
+div.aboutme {
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 100px;
+}
+
 a#gamelink {
     display: inline-block;
     margin-top: 20px;
