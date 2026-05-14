@@ -71,8 +71,8 @@ body {
 }
 
 .cookieframe {
-    display: block;
+    display: flexbox;
     margin-top: 20px;
-    margin-left: 638px;
+    margin-left: 38px;
     cursor: cell;
 }
