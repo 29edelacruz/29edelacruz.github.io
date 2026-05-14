@@ -69,3 +69,10 @@ body {
     color: white;
 
 }
+
+.cookieframe {
+    display: block;
+    margin-top: 20px;
+    margin-left: 638px;
+    cursor: cell;
+}
