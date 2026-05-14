@@ -15,12 +15,6 @@ body {
 
 }
 
-.cookieclick {
-    font-family: Cause;
-    text-align: center;
-    margin-top: 0px;
-}
-
 .aboutme {
     font-family: Montserrat;
     text-align: center;
@@ -68,11 +62,4 @@ body {
     background-color: #4CAF50;
     color: white;
 
-}
-
-.cookieframe {
-    display: flexbox;
-    margin-top: 20px;
-    margin-left: 38px;
-    cursor: cell;
 }
